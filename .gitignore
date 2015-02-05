@@ -1,0 +1,13 @@
+# Executables
+fennica/fennica
+estc/estc
+
+# Object files
+*.o
+
+# Data files
+fennica/data/*
+estc/data/*
+
+# File locks
+.~lock*
