@@ -1,7 +1,7 @@
 # MARCdata
 Writes selected parts of a MARC XML bibliographic data file into a .csv.gz file.
 
-Preliminaries
+Preliminaries:
 
 + GNU make (build automation)
 + Clang (compiler)
@@ -10,10 +10,10 @@ Preliminaries
 
 Usage:
 
-1. Copy input files (.xml) to folder 'data'
+1. Copy input (.xml files) to the folder 'data'
 1. Depending on the input, 'make' in either 'estc' or 'fennica'
 1. Run 'estc' or 'fennica' in the respective folder
-1. Output files (.csv.gz) are written to folder 'data'
+1. Output (.csv.gz files) is located in the folder 'data'
 
 Author: [Niko Ilomäki](https://github.com/NVI/)
 
