@@ -1,7 +1,19 @@
 # MARCdata
 Writes selected parts of a MARC XML bibliographic data file into a .csv.gz file.
 
-Makefiles use Clang compiler with libc++ standard library.
+Preliminaries
+
++ GNU make (build automation)
++ Clang (compiler)
++ libc++ (standard library)
++ zlib.h (header)
+
+Usage:
+
+1. Copy input files (.xml) to folder 'data'
+1. Depending on the input, 'make' in either 'estc' or 'fennica'
+1. Run 'estc' or 'fennica' in the respective folder
+1. Output files (.csv.gz) are written to folder 'data'
 
 Author: [Niko Ilomäki](https://github.com/NVI/)
 
