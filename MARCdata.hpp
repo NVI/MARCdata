@@ -2,11 +2,11 @@
 
 #include <cstdlib>
 #include <cstdio>
-#include <fstream>
 #include <string>
 #include <vector>
 #include <map>
 #include "rapidxml/rapidxml.hpp" // The MIT License; (c) 2006, 2007 Marcin Kalicinski
+#include "gzstream/gzstream.h" // GNU Lesser General Public License (LGPL) 2.1; (c) 2001 Deepak Bandyopadhyay, Lutz Kettner
 
 typedef std::map<std::string, std::map<char, std::string> > Book;
 

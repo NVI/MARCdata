@@ -6,8 +6,7 @@ estc/estc
 *.o
 
 # Data files
-fennica/data/*
-estc/data/*
+data/*
 
 # File locks
 .~lock*
