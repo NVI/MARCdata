@@ -2,7 +2,6 @@
 
 void MARCdata::csvOutput(const std::string filename){
 	constructSubfields();
-	cleanSubfields();
 	ogzstream table(filename.c_str());
 	table << "041a|041h|100a|100d|240a|245a|245b|260a|260b|260c|300a|300b|300c|300e|310a|362a|500a|502a|502c|502d|510a|510c|650a|651a|710a|720a|785t|852a\n";
 	for (auto& book : books){

@@ -70,24 +70,6 @@ void MARCdata::constructSubfields(){
 	}
 }
 
-void MARCdata::cleanSubfields(){
-	for (auto& book : books){
-		for (auto& field : book){
-			for (auto& subfield : field.second){
-				int l = subfield.second.length();
-				while (ispunct(subfield.second[l - 1]) || isspace(subfield.second[l - 1])){
-					subfield.second = subfield.second.substr(0, l - 1);
-					--l;
-				}
-				while (ispunct(subfield.second[0]) || isspace(subfield.second[0])){
-					subfield.second = subfield.second.substr(1, l - 1);
-					--l;
-				}
-			}
-		}
-	}
-}
-
 void MARCdata::replaceAll(std::string& str, const std::string a, const std::string b){
 	int l = str.length();
 	int i = 0;

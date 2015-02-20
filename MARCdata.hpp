@@ -21,6 +21,5 @@ private:
 	rapidxml::xml_document<> xmlTree;
 	void xmlToBst();
 	void constructSubfields();
-	void cleanSubfields();
 	void replaceAll(std::string& str, const std::string a, const std::string b);
 };
