@@ -1,4 +1,4 @@
-#include "../MARCdata.hpp"
+#include "MARCdata.hpp"
 
 void MARCdata::csvOutput(const std::string filename){
 	constructSubfields();
@@ -39,8 +39,8 @@ void MARCdata::csvOutput(const std::string filename){
 int main()
 {
 	MARCdata fennica;
-	fennica.xmlInput("../data/fennica_1470_1800_records.xml");
-	fennica.xmlInput("../data/fennica_1800_1917_records.xml");
-	fennica.csvOutput("../data/fennica.csv.gz");
+	fennica.xmlInput("data/fennica_1470_1800_records.xml");
+	fennica.xmlInput("data/fennica_1800_1917_records.xml");
+	fennica.csvOutput("data/fennica.csv.gz");
 	return 0;
 }

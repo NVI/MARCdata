@@ -1,4 +1,4 @@
-#include "../MARCdata.hpp"
+#include "MARCdata.hpp"
 
 void MARCdata::csvOutput(const std::string filename){
 	constructSubfields();
@@ -28,7 +28,7 @@ void MARCdata::csvOutput(const std::string filename){
 int main()
 {
 	MARCdata estc;
-	estc.xmlInput("../data/ESTChistory.xml");
-	estc.csvOutput("../data/estc.csv.gz");
+	estc.xmlInput("data/ESTChistory.xml");
+	estc.csvOutput("data/estc.csv.gz");
 	return 0;
 }

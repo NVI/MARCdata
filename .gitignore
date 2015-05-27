@@ -1,9 +1,14 @@
 # Executables
-fennica/fennica
-estc/estc
+fennica
+fennica.exe
+estc
+estc.exe
+kungliga
+kungliga.exe
 
 # Object files
 *.o
+*.obj
 
 # Data files
 data/*
