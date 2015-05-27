@@ -38,8 +38,8 @@ void MARCdata::csvOutput(const std::string filename){
 
 int main()
 {
-	MARCdata fennica;
-	fennica.xmlInput("data/finland_export.xml");
+	MARCdata kungliga;
+	fennica.xmlInput("data/kungliga_pt1.xml");
 	fennica.csvOutput("data/kungliga.csv.gz");
 	return 0;
 }
