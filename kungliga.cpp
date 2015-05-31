@@ -5,8 +5,8 @@ void MARCdata::csvOutput(const std::string filename){
 	ogzstream table(filename.c_str());
 	table << "008lang|100a|100d|240a|245a|245b|260a|260b|260c|300a|300b|300c|300e|310a|362a|500a|502a|502c|502d|510a|510c|650a|651a|710a|720a|785t|852a\n";
 	for (auto& book : books){
-		int langIdx = book["008"]['#'].length()-5;
-		table << book["008"]['#'].substr(langIdx,3) << "|";
+		//int langIdx = book["008"]['#'].length()-5;
+		//table << book["008"]['#'].substr(langIdx,3) << "|";
 		table << book["100"]['a'] << "|";
 		table << book["100"]['d'] << "|";
 		table << book["240"]['a'] << "|";
@@ -39,7 +39,7 @@ void MARCdata::csvOutput(const std::string filename){
 int main()
 {
 	MARCdata kungliga;
-	fennica.xmlInput("data/kungliga_pt1.xml");
-	fennica.csvOutput("data/kungliga.csv.gz");
+	kungliga.xmlInput("data/kungliga_temp");
+	kungliga.csvOutput("data/kungliga.csv.gz");
 	return 0;
 }
