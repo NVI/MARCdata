@@ -16,6 +16,7 @@ public:
 	MARCdata();
 	void xmlInput(const std::string filename);
 	void csvOutput(const std::string filename);
+	void flush();
 private:
 	std::vector<Book> books;
 	rapidxml::xml_document<> xmlTree;

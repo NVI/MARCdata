@@ -23,6 +23,9 @@ void MARCdata::xmlToBst(){
 	rapidxml::xml_node<> *record = xmlTree.first_node()->first_node();
 	for (record->next_sibling(); record; record = record->next_sibling()){
 		Book book;
+		if (record->first_node() == 0){
+			continue;
+		}
 		for (rapidxml::xml_node<> *datafield = record->first_node()->next_sibling(); datafield; datafield = datafield->next_sibling()){
 			std::string val = "";
 			std::string loc = datafield->first_attribute()->value();
@@ -85,4 +88,8 @@ void MARCdata::replaceAll(std::string& str, const std::string a, const std::stri
 			++i;
 		}
 	}
+}
+
+void MARCdata::flush(){
+	books.clear();
 }
