@@ -6,8 +6,15 @@ Writes selected parts of a [MARC XML](http://www.loc.gov/standards/marcxml/) bib
 
 + [GNU Make](http://www.gnu.org/software/make/) (build automation)
 + [Clang](http://clang.llvm.org/) (compiler)
-+ [libc++](http://libcxx.llvm.org/) (standard library)
 + [zlib.h](http://www.zlib.net/) (header)
+
+## C++11
+
+Requires standard library support for the following C++11 extensions:
+
++ range-based for loop
++ *auto* type specifier
++ *nullptr* identifier
 
 ## Usage
 
