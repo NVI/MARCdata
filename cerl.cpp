@@ -18,7 +18,7 @@ void MARCdata::csvOutput(const std::string filename){
 		table << book["300"]['c'] << "|";
 		table << book["310"]['a'] << "|";
 		table << book["362"]['a'] << "|";
-		table << book["502"]['a'] << "|";
+		table << book["502"]['a'] << "\n";
 
 	  /* 008lang ignored as it had some problem */		
 		/* Ignoring for now
