@@ -36,9 +36,16 @@ Input files should be placed in folder 'data'. Output goes there as well.
 	make kungliga
 	./kungliga
 
+### Göttingen
+
+	make cerl
+	./cerl
+
 ## Author
 
 [Niko Ilomäki](https://github.com/NVI/)
+
+Contributions by [Leo Lahti](https://github.com/antagomir/)
 
 ## License
 
