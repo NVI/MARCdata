@@ -3,7 +3,7 @@
 void MARCdata::csvOutput(const std::string filename){
 	constructSubfields();
 	ogzstream table(filename.c_str());
-	table << "041a|041h|100a|100d|110a|240a|240n|245a|245b|245c|260a|260b|260c|300a|300c|310a|362a|502a|710a";
+	table << "041a|041h|100a|100d|110a|240a|240n|245a|245b|245c|260a|260b|260c|300a|300c|310a|362a|502a|710a\n";
 
 	for (auto& book : books){
 
@@ -25,7 +25,7 @@ void MARCdata::csvOutput(const std::string filename){
 		table << book["310"]['a'] << "|";
 		table << book["362"]['a'] << "|";
 		table << book["502"]['a'] << "|";
-		table << book["710"]['a'] << "|";
+		table << book["710"]['a'] << "\n";
 
 	  /* 008lang ignored as it had some problem */		
 		/* Ignoring for now
@@ -152,33 +152,24 @@ int main()
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_16.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_22.out.xml");	
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_32.out.xml");
-	cerl.csvOutput("data/cerl2b.csv.gz");
-	cerl.flush();
-	
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_42.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_6.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_17.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_23.out.xml");
-	cerl.csvOutput("data/cerl2c.csv.gz");
-	cerl.flush();
-	
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_33.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_43.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_7.out.xml");
-	cerl.csvOutput("data/cerl2d.csv.gz");
+	cerl.csvOutput("data/cerl2b.csv.gz");
 	cerl.flush();	
 
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_18.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_24.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_34.out.xml");
-	cerl.csvOutput("data/cerl3.csv.gz");
-	cerl.flush();
-	
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_44.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_8.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_19.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_25.out.xml");
-	cerl.csvOutput("data/cerl3b.csv.gz");
+	cerl.csvOutput("data/cerl3.csv.gz");
 	cerl.flush();
 	
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_35.out.xml"); 
@@ -192,13 +183,22 @@ int main()
 	cerl.flush();
 	
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_10.out.xml");
-	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_20.out.xml"); 
+	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_20.out.xml");
+	cerl.csvOutput("data/cerl3d1.csv.gz");
+	cerl.flush();
+	
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_27.out.xml");
+	cerl.csvOutput("data/cerl3d2a.csv.gz");
+	cerl.flush();
+	
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_37.out.xml");
+	cerl.csvOutput("data/cerl3d2b.csv.gz");	
+	cerl.flush();
+	
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_47.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_11.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_21.out.xml");
-	cerl.csvOutput("data/cerl3d.csv.gz");
+	cerl.csvOutput("data/cerl3d3.csv.gz");
 	cerl.flush();
 	
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_28.out.xml");
