@@ -121,7 +121,9 @@ int main()
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_12.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_19.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_29.out.xml"); 
-	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_39.out.xml"); 
+	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_39.out.xml");
+	cerl.csvOutput("data/cerl1b.csv.gz");
+	
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_49.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_13.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_1.out.xml");
@@ -141,22 +143,36 @@ int main()
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_41.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_5.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_16.out.xml"); 
-	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_22.out.xml"); 
+	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_22.out.xml");	
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_32.out.xml");
+	cerl.csvOutput("data/cerl2b.csv.gz");
+	
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_42.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_6.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_17.out.xml"); 
-	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_23.out.xml"); 
-	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_33.out.xml"); 
-	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_43.out.xml"); 
-	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_7.out.xml"); 
+	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_23.out.xml");
+	cerl.csvOutput("data/cerl2c.csv.gz");
+	
+	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_33.out.xml");
+	cerl.csvOutput("data/cerl2d1.csv.gz");
+	
+	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_43.out.xml");
+	cerl.csvOutput("data/cerl2d2.csv.gz");
+	
+	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_7.out.xml");
+	cerl.csvOutput("data/cerl2d3.csv.gz");
+	
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_18.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_24.out.xml"); 
-	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_34.out.xml"); 
+	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_34.out.xml");
+	cerl.csvOutput("data/cerl3.csv.gz");
+	
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_44.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_8.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_19.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_25.out.xml");
+	cerl.csvOutput("data/cerl3b.csv.gz");
+	
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_35.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_45.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_9.out.xml"); 
@@ -164,7 +180,7 @@ int main()
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_26.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_36.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_46.out.xml");
-	cerl.csvOutput("data/cerl3.csv.gz");
+	cerl.csvOutput("data/cerl3c.csv.gz");
 	
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_10.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_20.out.xml"); 
@@ -172,7 +188,9 @@ int main()
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_37.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_47.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_11.out.xml");
-	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_21.out.xml"); 
+	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_21.out.xml");
+	cerl.csvOutput("data/cerl3d.csv.gz");
+	
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_28.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_38.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_48.out.xml");
@@ -181,13 +199,17 @@ int main()
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_29.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_39.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_49.out.xml");
+	cerl.csvOutput("data/cerl3e.csv.gz");
+	
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_13.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_23.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_2.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_3.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_4.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_14.out.xml");
-	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_24.out.xml"); 
+	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_24.out.xml");
+	cerl.csvOutput("data/cerl3f.csv.gz");
+	
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_30.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_40.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_50.out.xml");
@@ -196,7 +218,7 @@ int main()
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_31.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_41.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_5.out.xml");
-	cerl.csvOutput("data/cerl4.csv.gz");
+	cerl.csvOutput("data/cerl3g.csv.gz");
 	
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_16.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_26.out.xml"); 
@@ -204,8 +226,10 @@ int main()
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_42.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_6.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_17.out.xml");
-	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_27.out.xml"); 
+	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_27.out.xml");	
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_33.out.xml");
+	cerl.csvOutput("data/cerl4.csv.gz");
+	
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_43.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_7.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_18.out.xml");
@@ -214,6 +238,8 @@ int main()
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_44.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_8.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_19.out.xml");
+	cerl.csvOutput("data/cerl4b.csv.gz");
+	
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_29.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_35.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_45.out.xml");
@@ -222,6 +248,8 @@ int main()
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_2.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_36.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_46.out.xml");
+	cerl.csvOutput("data/cerl4c.csv.gz");
+	
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_10.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_20.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_30.out.xml"); 
@@ -236,7 +264,9 @@ int main()
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_48.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_12.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_22.out.xml");
-	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_32.out.xml"); 
+	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_32.out.xml");
+	cerl.csvOutput("data/cerl5b.csv.gz");
+	
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_39.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_49.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_13.out.xml");
@@ -246,12 +276,16 @@ int main()
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_4.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_14.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_24.out.xml");
+	cerl.csvOutput("data/cerl5c.csv.gz");
+	
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_34.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_40.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_50.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_15.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_25.out.xml");
-	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_35.out.xml"); 
+	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_35.out.xml");
+	cerl.csvOutput("data/cerl5d.csv.gz");
+	
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_41.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_5.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_16.out.xml");
@@ -267,6 +301,8 @@ int main()
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_43.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_7.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_18.out.xml");
+	cerl.csvOutput("data/cerl6b.csv.gz");
+	
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_28.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_38.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_44.out.xml");
@@ -275,6 +311,8 @@ int main()
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_29.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_39.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_45.out.xml");
+	cerl.csvOutput("data/cerl6c.csv.gz");
+	
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_9.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_1.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_2.out.xml");
@@ -283,6 +321,8 @@ int main()
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_10.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_20.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_30.out.xml");
+	cerl.csvOutput("data/cerl6d.csv.gz");
+	
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_40.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_47.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_11.out.xml");
@@ -298,6 +338,8 @@ int main()
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_42.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_49.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_13.out.xml");
+	cerl.csvOutput("data/cerl7b.csv.gz");
+	
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_23.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_33.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_43.out.xml"); 
@@ -305,6 +347,8 @@ int main()
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_14.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_24.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_34.out.xml");
+	cerl.csvOutput("data/cerl7c.csv.gz");
+	
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_44.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_50.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_15.out.xml");
@@ -312,11 +356,15 @@ int main()
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_35.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_45.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_5.out.xml");
+	cerl.csvOutput("data/cerl7d.csv.gz");
+	
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_16.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_26.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_36.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_46.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_6.out.xml");
+	cerl.csvOutput("data/cerl7e.csv.gz");
+	
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_17.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_27.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_37.out.xml");
@@ -332,63 +380,81 @@ int main()
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_19.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_29.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_39.out.xml");
+	cerl.csvOutput("data/cerl8b.csv.gz");
+	
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_49.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.001.mrc_9.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_1.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_2.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_3.out.xml");
-	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_4.out.xml"); 
+	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_4.out.xml");
+	cerl.csvOutput("data/cerl8c.csv.gz");
+	
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_10.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_20.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_30.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_40.out.xml");
+	cerl.csvOutput("data/cerl8d.csv.gz");
+	
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_50.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_11.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_21.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_31.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_41.out.xml");
+	cerl.csvOutput("data/cerl9.csv.gz");
+	
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_5.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_12.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_22.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_32.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_42.out.xml");
-	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_6.out.xml"); 
-	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_13.out.xml");
-	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_23.out.xml");
-	cerl.csvOutput("data/cerl9.csv.gz");
+	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_6.out.xml");
+	cerl.csvOutput("data/cerl9b.csv.gz");
 	
+	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_13.out.xml");
+	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_23.out.xml");	
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_33.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_43.out.xml");
-	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_7.out.xml"); 
+	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_7.out.xml");
+	cerl.csvOutput("data/cerl9c.csv.gz");
+	
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_14.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_24.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_34.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_44.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_8.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_15.out.xml");
+	cerl.csvOutput("data/cerl9d.csv.gz");
+	
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_25.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_35.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_45.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.006.mrc_9.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_16.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_26.out.xml");
+	cerl.csvOutput("data/cerl9e.csv.gz");
+	
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_36.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_46.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.007.mrc_1.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_17.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_27.out.xml");
-	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_37.out.xml");
-	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_47.out.xml");
-	cerl.xmlInput("data/CERL/result/db1_77.007.mrc_2.out.xml"); 
-	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_18.out.xml");
-	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_28.out.xml");
-	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_38.out.xml");
 	cerl.csvOutput("data/cerl10.csv.gz");
 	
+	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_37.out.xml");
+	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_47.out.xml");
+	cerl.xmlInput("data/CERL/result/db1_77.007.mrc_2.out.xml");	
+	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_18.out.xml");
+	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_28.out.xml");
+	cerl.csvOutput("data/cerl10b.csv.gz");
+	
+	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_38.out.xml");	
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_48.out.xml"); 
-	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_19.out.xml");
+	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_19.out.xml");	
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_29.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.004.mrc_39.out.xml");
+	cerl.csvOutput("data/cerl10c.csv.gz");
+	
 	cerl.xmlInput("data/CERL/result/db1_77.005.mrc_49.out.xml"); 
 	cerl.xmlInput("data/CERL/result/db1_77.002.mrc_1.out.xml");
 	cerl.xmlInput("data/CERL/result/db1_77.003.mrc_2.out.xml");
