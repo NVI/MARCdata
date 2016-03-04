@@ -1,4 +1,6 @@
 # Executables
+cerl
+cerl.exe
 fennica
 fennica.exe
 estc
@@ -12,6 +14,7 @@ kungliga.exe
 
 # Data files
 data/*
+tmp*
 
 # File locks
 .~lock*

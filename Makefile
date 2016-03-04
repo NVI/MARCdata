@@ -1,5 +1,10 @@
 CXX = clang++ -std=c++11 -O3
 
+cerl: cerl.o MARCdata.o gzstream.o
+	$(CXX) -lz -o cerl cerl.o MARCdata.o gzstream.o
+cerl.o: cerl.cpp MARCdata.hpp
+	$(CXX) -c cerl.cpp
+
 estc: estc.o MARCdata.o gzstream.o
 	$(CXX) -lz -o estc estc.o MARCdata.o gzstream.o
 estc.o: estc.cpp MARCdata.hpp
