@@ -7,9 +7,8 @@ void MARCdata::csvOutput(const std::string filename){
 	table << "500a|502a|502c|502d|510a|510c|650a|650x|650y|650z|651a|700a|700d|710a|720a|740a|772c|772d|772t|785t|";
 	table << "852a|852j|852z|866x|900a|900d|900u|976a|976b\n";
 	for (auto& book : books){
-		if (book["008"]['#'].length() > 4){
-			int langIdx = book["008"]['#'].length()-5;
-			table << book["008"]['#'].substr(langIdx,3);
+		if (book["008"]['#'].length() > 37){
+			table << book["008"]['#'].substr(35,3);
 		}
 		table << "|";
 		table << book["100"]['a'] << "|";
