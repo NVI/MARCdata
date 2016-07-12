@@ -9,7 +9,7 @@ void MARCdata::csvOutput(const std::string filename){
 	for (auto& book : books){
 		if (book["008"]['#'].length() > 4){
 			int langIdx = book["008"]['#'].length()-2;
-			if (book["008"]['#'].substr(langIdx,2).compare(" c")) {
+			if (!book["008"]['#'].substr(langIdx,2).compare(" c")) {
 				langIdx -= 3;
 			} else --langIdx;
 			table << book["008"]['#'].substr(langIdx,3);
